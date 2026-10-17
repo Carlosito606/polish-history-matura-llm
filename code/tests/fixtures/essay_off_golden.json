@@ -1,0 +1,471 @@
+{
+ "auto": {
+  "answer": "WYPRACOWANIE na temat nr 2\n\nOkres po przełomie przyniósł wiele zmian w państwie i społeczeństwie. Rządzący zapowiadali odnowę, a obywatele liczyli na większą swobodę i lepsze warunki życia. Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod. Uzasadnię to stanowisko, omawiając trzy wybrane wydarzenia i ich skutki dla obywateli.\n\nW aspekcie ustrojowym ustrojowy pokazuje, że teza jest trafna. W czerwcu 1956 roku robotnicy Poznania rozpoczęli strajk, który stłumiło wojsko. W listopadzie 1956 roku Władysław Gomułka został I sekretarzem KC PZPR. W marcu 1968 roku studenci Warszawy protestowali po zdjęciu Dziadów. W 1953 roku wybuchło powstanie węgierskie. Władze odpowiedziały represjami, a wielu uczestników protestów straciło pracę i musiało wyjechać z kraju. Społeczeństwo coraz wyraźniej dostrzegało, że obietnice z okresu przemian nie zostały spełnione. Cenzura znów się zaostrzyła, a swobody obiecane robotnikom i studentom stopniowo odbierano. Zaufanie do rządzących malało z każdym rokiem.\n\nW aspekcie międzynarodowym międzynarodowy wyraźnie wiąże się z tezą. W grudniu 1970 roku robotnicy stoczni Wybrzeża rozpoczęli strajk po podwyżce cen. W styczniu 1970 roku Edward Gierek zastąpił Gomułkę. Przemoc wobec robotników podważyła zaufanie do partii i pokazała granice liberalizacji. Nowa ekipa zapowiadała modernizację, lecz nie zmieniła podstaw systemu. Decyzje nadal zapadały w wąskim gronie kierownictwa, bez udziału obywateli. Robotnicy zapamiętali, że władza strzelała do protestujących. Ten przykład dowodzi, że przemiany miały charakter powierzchowny.\n\nW aspekcie społecznym społeczny również przemawia za przyjętym stanowiskiem. 23 października 1956 roku w Budapeszcie wybuchło powstanie węgierskie. 25 października 1956 roku armia radziecka stłumiła powstanie. W marcu 1953 roku zmarł Józef Stalin, co zapoczątkowało odwilż w całym bloku. Doświadczenie sąsiadów przekonało wielu, że otwarty bunt nie ma szans. Kierownictwo partii wykorzystało te obawy, by ograniczyć żądania reform. Nadzieje na demokratyzację szybko osłabły, a aparat bezpieczeństwa odzyskał dawną pozycję. Ten przykład także pokazuje, że swoboda po przełomie była ograniczona.\n\nPodsumowując, omówione wydarzenia pokazują, że zmiany były w dużej mierze pozorne. Władza zachowała kontrolę nad państwem, a społeczeństwo wielokrotnie protestowało przeciw jej decyzjom. Dlatego podtrzymuję stanowisko przedstawione we wstępie.",
+  "calls": [
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 320, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[2] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n[3] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[4] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n\\nTemat nr 2:\\nKongres wiedeński zapewnił Europie trwały pokój. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekt ustrojowy, międzynarodowy i społeczny.\\n\\nNapisz wstęp wypracowania (3–4 zdania): wprowadź w temat (epoka, kontekst), jednoznacznie zajmij stanowisko wobec tezy (np. „Zgadzam się z tezą, że…”, „Nie zgadzam się z tezą, że…” albo „Teza jest słuszna tylko częściowo, ponieważ…”) i zapowiedz, że uzasadnisz je, omawiając: ustrojowy, międzynarodowy, społeczny. Nie przepisuj polecenia ani tezy słowo w słowo, nie pisz nagłówka. Napisz tylko wstęp.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 360, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Temat nr 2:\\nKongres wiedeński zapewnił Europie trwały pokój. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekt ustrojowy, międzynarodowy i społeczny.\\n\\nDotychczas napisany tekst wypracowania:\\nOkres po przełomie przyniósł wiele zmian w państwie i społeczeństwie. Rządzący zapowiadali odnowę, a obywatele liczyli na większą swobodę i lepsze warunki życia. Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod. Uzasadnię to stanowisko, omawiając trzy wybrane wydarzenia i ich skutki dla obywateli.\\n\\nW aspekcie ustrojowym ustrojowy pokazuje, że teza jest trafna. W czerwcu 1956 roku robotnicy Poznania rozpoczęli strajk, który stłumiło wojsko. W listopadzie 1956 roku Władysław Gomułka został I sekretarzem KC PZPR. W marcu 1968 roku studenci Warszawy protestowali po zdjęciu Dziadów. W 1953 roku wybuchło powstanie węgierskie. Władze odpowiedziały represjami, a wielu uczestników protestów straciło pracę i musiało wyjechać z kraju. Społeczeństwo coraz wyraźniej dostrzegało, że obietnice z okresu przemian nie zostały spełnione. Cenzura znów się zaostrzyła, a swobody obiecane robotnikom i studentom stopniowo odbierano. Zaufanie do rządzących malało z każdym rokiem.\\n\\nW aspekcie międzynarodowym międzynarodowy wyraźnie wiąże się z tezą. W grudniu 1970 roku robotnicy stoczni Wybrzeża rozpoczęli strajk po podwyżce cen. W styczniu 1970 roku Edward Gierek zastąpił Gomułkę. Przemoc wobec robotników podważyła zaufanie do partii i pokazała granice liberalizacji. Nowa ekipa zapowiadała modernizację, lecz nie zmieniła podstaw systemu. Decyzje nadal zapadały w wąskim gronie kierownictwa, bez udziału obywateli. Robotnicy zapamiętali, że władza strzelała do protestujących. Ten przykład dowodzi, że przemiany miały charakter powierzchowny.\\n\\nW aspekcie społecznym społeczny również przemawia za przyjętym stanowiskiem. 23 października 1956 roku w Budapeszcie wybuchło powstanie węgierskie. 25 października 1956 roku armia radziecka stłumiła powstanie. W marcu 1953 roku zmarł Józef Stalin, co zapoczątkowało odwilż w całym bloku. Doświadczenie sąsiadów przekonało wielu, że otwarty bunt nie ma szans. Kierownictwo partii wykorzystało te obawy, by ograniczyć żądania reform. Nadzieje na demokratyzację szybko osłabły, a aparat bezpieczeństwa odzyskał dawną pozycję. Ten przykład także pokazuje, że swoboda po przełomie była ograniczona.\\n\\nNapisz zakończenie (3–4 zdania): podsumuj argumenty z rozwinięcia i powtórz stanowisko ze wstępu. Nie dodawaj nowych faktów ani dat. Napisz tylko zakończenie.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 520, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[2] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[3] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n[4] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[5] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[6] Poznański Czerwiec\\nPoznański Czerwiec – strajk i demonstracje robotników Poznania 28 czerwca 1956 roku, stłumione przez wojsko i milicję. Zginęło kilkadziesiąt osób.\\n\\nTemat nr 2:\\nKongres wiedeński zapewnił Europie trwały pokój. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekt ustrojowy, międzynarodowy i społeczny.\\n\\nStanowisko autora wypracowania: Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod.\\n\\nNapisz akapit rozwinięcia (6–8 zdań) dotyczący aspektu: społeczny. Pierwsze zdanie ma wiązać ten element z tezą. Podaj 2–3 konkretne fakty z datami (rok) z powyższych fragmentów — wyłącznie takie, które w nich występują — i wyjaśnij, jak potwierdzają albo osłabiają stanowisko. Ostatnie zdanie akapitu ma wyraźnie wiązać go z tezą. Pisz ciągłym tekstem, bez nagłówka; nie powtarzaj wstępu i nie pisz zakończenia. Napisz tylko ten akapit.\", \"role\": \"user\"}, {\"content\": \"W aspekcie społecznym\", \"role\": \"assistant\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 520, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[2] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[3] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[5] Święte Przymierze\\nW 1815 roku monarchowie Rosji, Austrii i Prus zawarli Święte Przymierze.\\n[6] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n\\nTemat nr 2:\\nKongres wiedeński zapewnił Europie trwały pokój. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekt ustrojowy, międzynarodowy i społeczny.\\n\\nStanowisko autora wypracowania: Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod.\\n\\nNapisz akapit rozwinięcia (6–8 zdań) dotyczący aspektu: ustrojowy. Pierwsze zdanie ma wiązać ten element z tezą. Podaj 2–3 konkretne fakty z datami (rok) z powyższych fragmentów — wyłącznie takie, które w nich występują — i wyjaśnij, jak potwierdzają albo osłabiają stanowisko. Ostatnie zdanie akapitu ma wyraźnie wiązać go z tezą. Pisz ciągłym tekstem, bez nagłówka; nie powtarzaj wstępu i nie pisz zakończenia. Napisz tylko ten akapit.\", \"role\": \"user\"}, {\"content\": \"W aspekcie ustrojowym\", \"role\": \"assistant\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 520, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Polski Październik\\nW październiku 1956 roku Władysław Gomułka został wybrany na I sekretarza KC PZPR. Ograniczono kolektywizację wsi i złagodzono cenzurę.\\n[2] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[3] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[5] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[6] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n\\nTemat nr 2:\\nKongres wiedeński zapewnił Europie trwały pokój. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekt ustrojowy, międzynarodowy i społeczny.\\n\\nStanowisko autora wypracowania: Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod.\\n\\nNapisz akapit rozwinięcia (6–8 zdań) dotyczący aspektu: międzynarodowy. Pierwsze zdanie ma wiązać ten element z tezą. Podaj 2–3 konkretne fakty z datami (rok) z powyższych fragmentów — wyłącznie takie, które w nich występują — i wyjaśnij, jak potwierdzają albo osłabiają stanowisko. Ostatnie zdanie akapitu ma wyraźnie wiązać go z tezą. Pisz ciągłym tekstem, bez nagłówka; nie powtarzaj wstępu i nie pisz zakończenia. Napisz tylko ten akapit.\", \"role\": \"user\"}, {\"content\": \"W aspekcie międzynarodowym\", \"role\": \"assistant\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}"
+  ],
+  "essay_meta": {
+   "alternative": "",
+   "aspects": [
+    "ustrojowy",
+    "międzynarodowy",
+    "społeczny"
+   ],
+   "elements": [
+    "ustrojowy",
+    "międzynarodowy",
+    "społeczny"
+   ],
+   "frame": null,
+   "lora_off": true,
+   "n_ctx": 28,
+   "n_removed": 4,
+   "stance_added": false,
+   "superlative": false,
+   "topic": "2",
+   "topics": [
+    {
+     "lex": 0.286,
+     "n": "1",
+     "n_ctx": 10,
+     "needs_materials": false,
+     "rerank": 0.989,
+     "score": 0.6374,
+     "terms": [
+      "hold",
+      "prus",
+      "najwiek",
+      "sukces",
+      "dyploma",
+      "ostatni",
+      "jagiell"
+     ]
+    },
+    {
+     "lex": 0.333,
+     "n": "2",
+     "n_ctx": 10,
+     "needs_materials": false,
+     "rerank": 0.998,
+     "score": 0.6654,
+     "terms": [
+      "kongr",
+      "wiedens",
+      "zapewn",
+      "europ",
+      "trwa",
+      "poko"
+     ]
+    },
+    {
+     "frame_hits": 6,
+     "lex": 0.333,
+     "n": "3",
+     "n_ctx": 10,
+     "needs_materials": false,
+     "rerank": 0.992,
+     "score": 0.6627,
+     "terms": [
+      "odwi",
+      "1956",
+      "roku",
+      "zmieni",
+      "tylk",
+      "pozorn"
+     ]
+    }
+   ],
+   "verify": [
+    {
+     "bad_years": [
+      "1957"
+     ],
+     "removed": "W 1957 roku władze powołały nową instytucję."
+    },
+    {
+     "bad_years": [
+      "1971"
+     ],
+     "removed": "W 1971 roku rząd cofnął podwyżki, co uspokoiło nastroje na krótko."
+    },
+    {
+     "bad_years": [
+      "1965"
+     ],
+     "removed": "W 1965 roku stocznie otrzymały nowe zamówienia."
+    },
+    {
+     "bad_single": [
+      "Polacy",
+      "Węgrzech"
+     ],
+     "bad_years": [
+      "1954"
+     ],
+     "removed": "W 1954 roku Polacy obserwowali wydarzenia na Węgrzech z niepokojem."
+    }
+   ],
+   "words": 326
+  },
+  "retrieval": [
+   "{\"k\": 12, \"search\": \"Europie\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów.\"}",
+   "{\"k\": 12, \"search\": \"Jagiellonów\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój.\"}",
+   "{\"k\": 12, \"search\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie. charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\"}",
+   "{\"k\": 12, \"search\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"k\": 12, \"search\": \"PRL 1956 1970\"}",
+   "{\"k\": 12, \"search\": \"PRL\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny militarny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy międzynarodowy społeczny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie. charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\"}"
+  ]
+ },
+ "topic1": {
+  "answer": "WYPRACOWANIE na temat nr 1\n\nOkres po przełomie przyniósł wiele zmian w państwie i społeczeństwie. Rządzący zapowiadali odnowę, a obywatele liczyli na większą swobodę i lepsze warunki życia. Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod. Uzasadnię to stanowisko, omawiając trzy wybrane wydarzenia i ich skutki dla obywateli.\n\nW aspekcie politycznym polityczny pokazuje, że teza jest trafna. W czerwcu 1956 roku robotnicy Poznania rozpoczęli strajk, który stłumiło wojsko. W listopadzie 1956 roku Władysław Gomułka został I sekretarzem KC PZPR. W marcu 1968 roku studenci Warszawy protestowali po zdjęciu Dziadów. W 1953 roku wybuchło powstanie węgierskie. Władze odpowiedziały represjami, a wielu uczestników protestów straciło pracę i musiało wyjechać z kraju. Społeczeństwo coraz wyraźniej dostrzegało, że obietnice z okresu przemian nie zostały spełnione. Cenzura znów się zaostrzyła, a swobody obiecane robotnikom i studentom stopniowo odbierano. Zaufanie do rządzących malało z każdym rokiem.\n\nW aspekcie militarnym militarny wyraźnie wiąże się z tezą. W grudniu 1970 roku robotnicy stoczni Wybrzeża rozpoczęli strajk po podwyżce cen. W styczniu 1970 roku Edward Gierek zastąpił Gomułkę. Przemoc wobec robotników podważyła zaufanie do partii i pokazała granice liberalizacji. Nowa ekipa zapowiadała modernizację, lecz nie zmieniła podstaw systemu. Decyzje nadal zapadały w wąskim gronie kierownictwa, bez udziału obywateli. Robotnicy zapamiętali, że władza strzelała do protestujących. Ten przykład dowodzi, że przemiany miały charakter powierzchowny.\n\nW porównaniu z wojną pruską hołd pruski przyniósł trwalsze skutki. Wojna pruska toczyła się w latach 1519–1521. Rozejm w Toruniu nie rozwiązał sporu. Dlatego stanowisko pozostaje uzasadnione.\n\nPodsumowując, omówione wydarzenia pokazują, że zmiany były w dużej mierze pozorne. Władza zachowała kontrolę nad państwem, a społeczeństwo wielokrotnie protestowało przeciw jej decyzjom. Dlatego podtrzymuję stanowisko przedstawione we wstępie.",
+  "calls": [
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 30, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[2] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[3] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[5] Polski Październik\\nW październiku 1956 roku Władysław Gomułka został wybrany na I sekretarza KC PZPR. Ograniczono kolektywizację wsi i złagodzono cenzurę.\\n[6] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n\\nTemat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nTeza: „Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów.”. Teza zawiera stopień najwyższy, więc wypracowanie musi porównać jej przedmiot z alternatywą tego samego rodzaju (np. innym władcą tej samej dynastii, innym wydarzeniem lub zjawiskiem z tego samego okresu). Podaj jedną taką alternatywę — samą nazwę, bez komentarza.\", \"role\": \"user\"}, {\"content\": \"Alternatywa:\", \"role\": \"assistant\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.0}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 320, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[2] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[3] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n\\nTemat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nNapisz wstęp wypracowania (3–4 zdania): wprowadź w temat (epoka, kontekst), jednoznacznie zajmij stanowisko wobec tezy (np. „Zgadzam się z tezą, że…”, „Nie zgadzam się z tezą, że…” albo „Teza jest słuszna tylko częściowo, ponieważ…”) i zapowiedz, że uzasadnisz je, omawiając: polityczny, militarny. Zapowiedz też porównanie z: Wojna pruska. Nie przepisuj polecenia ani tezy słowo w słowo, nie pisz nagłówka. Napisz tylko wstęp.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 360, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Temat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nDotychczas napisany tekst wypracowania:\\nOkres po przełomie przyniósł wiele zmian w państwie i społeczeństwie. Rządzący zapowiadali odnowę, a obywatele liczyli na większą swobodę i lepsze warunki życia. Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod. Uzasadnię to stanowisko, omawiając trzy wybrane wydarzenia i ich skutki dla obywateli.\\n\\nW aspekcie politycznym polityczny pokazuje, że teza jest trafna. W czerwcu 1956 roku robotnicy Poznania rozpoczęli strajk, który stłumiło wojsko. W listopadzie 1956 roku Władysław Gomułka został I sekretarzem KC PZPR. W marcu 1968 roku studenci Warszawy protestowali po zdjęciu Dziadów. W 1953 roku wybuchło powstanie węgierskie. Władze odpowiedziały represjami, a wielu uczestników protestów straciło pracę i musiało wyjechać z kraju. Społeczeństwo coraz wyraźniej dostrzegało, że obietnice z okresu przemian nie zostały spełnione. Cenzura znów się zaostrzyła, a swobody obiecane robotnikom i studentom stopniowo odbierano. Zaufanie do rządzących malało z każdym rokiem.\\n\\nW aspekcie militarnym militarny wyraźnie wiąże się z tezą. W grudniu 1970 roku robotnicy stoczni Wybrzeża rozpoczęli strajk po podwyżce cen. W styczniu 1970 roku Edward Gierek zastąpił Gomułkę. Przemoc wobec robotników podważyła zaufanie do partii i pokazała granice liberalizacji. Nowa ekipa zapowiadała modernizację, lecz nie zmieniła podstaw systemu. Decyzje nadal zapadały w wąskim gronie kierownictwa, bez udziału obywateli. Robotnicy zapamiętali, że władza strzelała do protestujących. Ten przykład dowodzi, że przemiany miały charakter powierzchowny.\\n\\nW porównaniu z wojną pruską hołd pruski przyniósł trwalsze skutki. Wojna pruska toczyła się w latach 1519–1521. Rozejm w Toruniu nie rozwiązał sporu. Dlatego stanowisko pozostaje uzasadnione.\\n\\nNapisz zakończenie (3–4 zdania): podsumuj argumenty z rozwinięcia i powtórz stanowisko ze wstępu. Nie dodawaj nowych faktów ani dat. Napisz tylko zakończenie.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 400, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Poznański Czerwiec\\nPoznański Czerwiec – strajk i demonstracje robotników Poznania 28 czerwca 1956 roku, stłumione przez wojsko i milicję. Zginęło kilkadziesiąt osób.\\n[2] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[3] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[5] Polski Październik\\nW październiku 1956 roku Władysław Gomułka został wybrany na I sekretarza KC PZPR. Ograniczono kolektywizację wsi i złagodzono cenzurę.\\n[6] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n\\nTemat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nStanowisko autora wypracowania: Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod.\\n\\nNapisz akapit (4–6 zdań), w którym porównasz to, czego dotyczy teza, z alternatywą: Wojna pruska. Podaj 1–2 fakty z datami o Wojna pruska z powyższych fragmentów i wyjaśnij, dlaczego mimo to stanowisko jest uzasadnione (albo dlaczego teza jest dyskusyjna). Bez nagłówka. Napisz tylko ten akapit.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 520, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[2] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[3] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[4] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n[5] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[6] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n\\nTemat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nStanowisko autora wypracowania: Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod.\\n\\nNapisz akapit rozwinięcia (6–8 zdań) dotyczący aspektu: militarny. Pierwsze zdanie ma wiązać ten element z tezą. Podaj 2–3 konkretne fakty z datami (rok) z powyższych fragmentów — wyłącznie takie, które w nich występują — i wyjaśnij, jak potwierdzają albo osłabiają stanowisko. Ostatnie zdanie akapitu ma wyraźnie wiązać go z tezą. Pisz ciągłym tekstem, bez nagłówka; nie powtarzaj wstępu i nie pisz zakończenia. Napisz tylko ten akapit.\", \"role\": \"user\"}, {\"content\": \"W aspekcie militarnym\", \"role\": \"assistant\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 520, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[2] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[3] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[4] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[5] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[6] Święte Przymierze\\nW 1815 roku monarchowie Rosji, Austrii i Prus zawarli Święte Przymierze.\\n\\nTemat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nStanowisko autora wypracowania: Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod.\\n\\nNapisz akapit rozwinięcia (6–8 zdań) dotyczący aspektu: polityczny. Pierwsze zdanie ma wiązać ten element z tezą. Podaj 2–3 konkretne fakty z datami (rok) z powyższych fragmentów — wyłącznie takie, które w nich występują — i wyjaśnij, jak potwierdzają albo osłabiają stanowisko. Ostatnie zdanie akapitu ma wyraźnie wiązać go z tezą. Pisz ciągłym tekstem, bez nagłówka; nie powtarzaj wstępu i nie pisz zakończenia. Napisz tylko ten akapit.\", \"role\": \"user\"}, {\"content\": \"W aspekcie politycznym\", \"role\": \"assistant\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 1400, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[2] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[3] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[5] Polski Październik\\nW październiku 1956 roku Władysław Gomułka został wybrany na I sekretarza KC PZPR. Ograniczono kolektywizację wsi i złagodzono cenzurę.\\n[6] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[7] Święte Przymierze\\nW 1815 roku monarchowie Rosji, Austrii i Prus zawarli Święte Przymierze.\\n[8] Poznański Czerwiec\\nPoznański Czerwiec – strajk i demonstracje robotników Poznania 28 czerwca 1956 roku, stłumione przez wojsko i milicję. Zginęło kilkadziesiąt osób.\\n[9] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[10] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n\\nTemat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nNapisz wypracowanie maturalne na temat nr 1. Pisz wyłącznie o tym temacie.\\nWymagania (kryteria oceniania CKE):\\n1. Pierwsza linia musi brzmieć dokładnie: WYPRACOWANIE na temat nr 1\\n2. Wstęp (jeden akapit): krótko wprowadź w temat i jednoznacznie zajmij stanowisko wobec tezy (np. „Zgadzam się z tezą, że…”, „Nie zgadzam się z tezą, że…” albo „Teza jest słuszna tylko częściowo, ponieważ…”). Całe wypracowanie ma konsekwentnie uzasadniać to stanowisko.\\n3. Rozwinięcie: 2 akapity po 5–7 zdań, po jednym na każdy aspekt, w tej kolejności: polityczny, militarny. Każdy akapit zacznij od zdania, które wiąże ten element z tezą, a potem podaj konkretne fakty (wydarzenia, daty, postacie, pojęcia) i wyjaśnij, jak potwierdzają albo osłabiają tezę. Nie wyliczaj faktów bez związku z tezą.\\n4. Zakończenie (jeden akapit, 3–4 zdania): podsumuj argumenty i powtórz stanowisko. Wnioski muszą wynikać z rozwinięcia. Zakończenie jest ostatnim akapitem: nic po nim nie dopisuj.\\n5. Długość: 450–700 wyrazów. Pisz ciągłym tekstem w akapitach, bez nagłówków, etykiet (np. „Stanowisko:”, „Interpretacja:”), numeracji, punktorów i pogrubień.\\n6. Podawaj tylko fakty, których jesteś pewien: z powyższych fragmentów Wikipedii albo powszechnie znane. Nie zmyślaj dat, nazwisk ani liczb. Lepiej napisać mniej szczegółów niż podać błędny fakt, bo każdy błąd rzeczowy obniża ocenę.\\n7. Wszystkie przykłady muszą mieścić się w ramach czasowych i przestrzennych tematu (np. jeśli temat dotyczy lat 50. XX wieku, nie opisuj wydarzeń z lat 60.).\\n8. Nie powtarzaj tych samych zdań ani myśli i nie przepisuj polecenia.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 400, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[2] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[3] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[5] Polski Październik\\nW październiku 1956 roku Władysław Gomułka został wybrany na I sekretarza KC PZPR. Ograniczono kolektywizację wsi i złagodzono cenzurę.\\n[6] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[7] Święte Przymierze\\nW 1815 roku monarchowie Rosji, Austrii i Prus zawarli Święte Przymierze.\\n[8] Poznański Czerwiec\\nPoznański Czerwiec – strajk i demonstracje robotników Poznania 28 czerwca 1956 roku, stłumione przez wojsko i milicję. Zginęło kilkadziesiąt osób.\\n[9] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[10] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n\\nTemat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nDotychczas napisany tekst wypracowania:\\nOkres po przełomie przyniósł wiele zmian w państwie i społeczeństwie. Rządzący zapowiadali odnowę, a obywatele liczyli na większą swobodę i lepsze warunki życia. Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod. Uzasadnię to stanowisko, omawiając trzy wybrane wydarzenia i ich skutki dla obywateli.\\n\\nOdpowiedź próbna 54.\\n\\nOdpowiedź próbna 35.\\n\\nNapisz zakończenie (3–4 zdania): podsumuj argumenty z rozwinięcia i powtórz stanowisko. Nie dodawaj nowych faktów i nie przepisuj wcześniejszych akapitów. Napisz tylko zakończenie.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 400, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[2] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[3] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[5] Polski Październik\\nW październiku 1956 roku Władysław Gomułka został wybrany na I sekretarza KC PZPR. Ograniczono kolektywizację wsi i złagodzono cenzurę.\\n[6] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[7] Święte Przymierze\\nW 1815 roku monarchowie Rosji, Austrii i Prus zawarli Święte Przymierze.\\n[8] Poznański Czerwiec\\nPoznański Czerwiec – strajk i demonstracje robotników Poznania 28 czerwca 1956 roku, stłumione przez wojsko i milicję. Zginęło kilkadziesiąt osób.\\n[9] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[10] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n\\nTemat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nNapisz wstęp wypracowania (3–4 zdania): wprowadź w temat i jednoznacznie zajmij stanowisko wobec tezy (np. „Zgadzam się z tezą, że…”, „Nie zgadzam się…” albo „Teza jest słuszna tylko częściowo, ponieważ…”). Napisz tylko wstęp, bez nagłówka.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 700, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[2] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[3] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[5] Polski Październik\\nW październiku 1956 roku Władysław Gomułka został wybrany na I sekretarza KC PZPR. Ograniczono kolektywizację wsi i złagodzono cenzurę.\\n[6] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[7] Święte Przymierze\\nW 1815 roku monarchowie Rosji, Austrii i Prus zawarli Święte Przymierze.\\n[8] Poznański Czerwiec\\nPoznański Czerwiec – strajk i demonstracje robotników Poznania 28 czerwca 1956 roku, stłumione przez wojsko i milicję. Zginęło kilkadziesiąt osób.\\n[9] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[10] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n\\nTemat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nDotychczas napisany tekst wypracowania:\\nOkres po przełomie przyniósł wiele zmian w państwie i społeczeństwie. Rządzący zapowiadali odnowę, a obywatele liczyli na większą swobodę i lepsze warunki życia. Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod. Uzasadnię to stanowisko, omawiając trzy wybrane wydarzenia i ich skutki dla obywateli.\\n\\nNapisz pierwszy akapit rozwinięcia (6–8 zdań) o aspekcie: polityczny. Zacznij od zdania, które wiąże ten element z tezą. Podaj konkretne fakty (wydarzenia, daty, postacie, pojęcia) z fragmentów Wikipedii albo powszechnie znane i wyjaśnij, jak uzasadniają stanowisko ze wstępu. Nie zmyślaj dat ani nazwisk, nie powtarzaj faktów z wcześniejszych akapitów i nie wychodź poza ramy czasowe tematu. Nie przepisuj wstępu ani wcześniejszych akapitów: napisz tylko ten nowy akapit.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 700, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[2] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[3] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[5] Polski Październik\\nW październiku 1956 roku Władysław Gomułka został wybrany na I sekretarza KC PZPR. Ograniczono kolektywizację wsi i złagodzono cenzurę.\\n[6] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[7] Święte Przymierze\\nW 1815 roku monarchowie Rosji, Austrii i Prus zawarli Święte Przymierze.\\n[8] Poznański Czerwiec\\nPoznański Czerwiec – strajk i demonstracje robotników Poznania 28 czerwca 1956 roku, stłumione przez wojsko i milicję. Zginęło kilkadziesiąt osób.\\n[9] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[10] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n\\nTemat nr 1:\\nHołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, uwzględniając w swojej argumentacji aspekty: polityczny i militarny.\\n\\nDotychczas napisany tekst wypracowania:\\nOkres po przełomie przyniósł wiele zmian w państwie i społeczeństwie. Rządzący zapowiadali odnowę, a obywatele liczyli na większą swobodę i lepsze warunki życia. Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod. Uzasadnię to stanowisko, omawiając trzy wybrane wydarzenia i ich skutki dla obywateli.\\n\\nOdpowiedź próbna 54.\\n\\nNapisz drugi akapit rozwinięcia (6–8 zdań) o aspekcie: militarny. Zacznij od zdania, które wiąże ten element z tezą. Podaj konkretne fakty (wydarzenia, daty, postacie, pojęcia) z fragmentów Wikipedii albo powszechnie znane i wyjaśnij, jak uzasadniają stanowisko ze wstępu. Nie zmyślaj dat ani nazwisk, nie powtarzaj faktów z wcześniejszych akapitów i nie wychodź poza ramy czasowe tematu. Nie przepisuj wstępu ani wcześniejszych akapitów: napisz tylko ten nowy akapit.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}"
+  ],
+  "essay_meta": {
+   "alternative": "Wojna pruska",
+   "aspects": [
+    "polityczny",
+    "militarny"
+   ],
+   "elements": [
+    "polityczny",
+    "militarny"
+   ],
+   "frame": null,
+   "lora_off": true,
+   "n_ctx": 28,
+   "n_removed": 3,
+   "stance_added": false,
+   "superlative": true,
+   "topic": "1",
+   "topics": [
+    {
+     "lex": 0.286,
+     "n": "1",
+     "n_ctx": 10,
+     "needs_materials": false,
+     "rerank": 0.989,
+     "score": 0.6374,
+     "terms": [
+      "hold",
+      "prus",
+      "najwiek",
+      "sukces",
+      "dyploma",
+      "ostatni",
+      "jagiell"
+     ]
+    },
+    {
+     "lex": 0.333,
+     "n": "2",
+     "n_ctx": 10,
+     "needs_materials": false,
+     "rerank": 0.998,
+     "score": 0.6654,
+     "terms": [
+      "kongr",
+      "wiedens",
+      "zapewn",
+      "europ",
+      "trwa",
+      "poko"
+     ]
+    },
+    {
+     "frame_hits": 6,
+     "lex": 0.333,
+     "n": "3",
+     "n_ctx": 10,
+     "needs_materials": false,
+     "rerank": 0.992,
+     "score": 0.6627,
+     "terms": [
+      "odwi",
+      "1956",
+      "roku",
+      "zmieni",
+      "tylk",
+      "pozorn"
+     ]
+    }
+   ],
+   "verify": [
+    {
+     "bad_years": [
+      "1957"
+     ],
+     "removed": "W 1957 roku władze powołały nową instytucję."
+    },
+    {
+     "bad_years": [
+      "1971"
+     ],
+     "removed": "W 1971 roku rząd cofnął podwyżki, co uspokoiło nastroje na krótko."
+    },
+    {
+     "bad_years": [
+      "1965"
+     ],
+     "removed": "W 1965 roku stocznie otrzymały nowe zamówienia."
+    }
+   ],
+   "words": 274
+  },
+  "retrieval": [
+   "{\"k\": 12, \"search\": \"Europie\"}",
+   "{\"k\": 12, \"search\": \"Europie\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Wojna pruska\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Wojna pruska\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów.\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów.\"}",
+   "{\"k\": 12, \"search\": \"Jagiellonów\"}",
+   "{\"k\": 12, \"search\": \"Jagiellonów\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój.\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój.\"}",
+   "{\"k\": 12, \"search\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie. charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\"}",
+   "{\"k\": 12, \"search\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie. charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\"}",
+   "{\"k\": 12, \"search\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"k\": 12, \"search\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"k\": 12, \"search\": \"PRL 1956 1970\"}",
+   "{\"k\": 12, \"search\": \"PRL 1956 1970\"}",
+   "{\"k\": 12, \"search\": \"PRL\"}",
+   "{\"k\": 12, \"search\": \"PRL\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. Wojna pruska\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny militarny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny militarny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy międzynarodowy społeczny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy międzynarodowy społeczny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie. charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie. charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\"}"
+  ]
+ },
+ "topic3": {
+  "answer": "WYPRACOWANIE na temat nr 3\n\nOkres po przełomie przyniósł wiele zmian w państwie i społeczeństwie. Rządzący zapowiadali odnowę, a obywatele liczyli na większą swobodę i lepsze warunki życia. Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod. Uzasadnię to stanowisko, omawiając trzy wybrane wydarzenia i ich skutki dla obywateli.\n\nPoznański Czerwiec (1956) pokazuje, że teza jest trafna. W czerwcu 1956 roku robotnicy Poznania rozpoczęli strajk, który stłumiło wojsko. W listopadzie 1956 roku Władysław Gomułka został I sekretarzem KC PZPR. W marcu 1968 roku studenci Warszawy protestowali po zdjęciu Dziadów. Władze odpowiedziały represjami, a wielu uczestników protestów straciło pracę i musiało wyjechać z kraju. Społeczeństwo coraz wyraźniej dostrzegało, że obietnice z okresu przemian nie zostały spełnione. Cenzura znów się zaostrzyła, a swobody obiecane robotnikom i studentom stopniowo odbierano. Zaufanie do rządzących malało z każdym rokiem.\n\nMarzec 1968 (1968) wyraźnie wiąże się z tezą. W grudniu 1970 roku robotnicy stoczni Wybrzeża rozpoczęli strajk po podwyżce cen. W styczniu 1970 roku Edward Gierek zastąpił Gomułkę. Przemoc wobec robotników podważyła zaufanie do partii i pokazała granice liberalizacji. Nowa ekipa zapowiadała modernizację, lecz nie zmieniła podstaw systemu. Decyzje nadal zapadały w wąskim gronie kierownictwa, bez udziału obywateli. Robotnicy zapamiętali, że władza strzelała do protestujących. Ten przykład dowodzi, że przemiany miały charakter powierzchowny.\n\nGrudzień 1970 (1970) również przemawia za przyjętym stanowiskiem. 23 października 1956 roku w Budapeszcie wybuchło powstanie węgierskie. 25 października 1956 roku armia radziecka stłumiła powstanie. Doświadczenie sąsiadów przekonało wielu, że otwarty bunt nie ma szans. Kierownictwo partii wykorzystało te obawy, by ograniczyć żądania reform. Nadzieje na demokratyzację szybko osłabły, a aparat bezpieczeństwa odzyskał dawną pozycję. Ten przykład także pokazuje, że swoboda po przełomie była ograniczona.\n\nPodsumowując, omówione wydarzenia pokazują, że zmiany były w dużej mierze pozorne. Władza zachowała kontrolę nad państwem, a społeczeństwo wielokrotnie protestowało przeciw jej decyzjom. Dlatego podtrzymuję stanowisko przedstawione we wstępie.",
+  "calls": [
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 200, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[2] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n[3] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[4] Święte Przymierze\\nW 1815 roku monarchowie Rosji, Austrii i Prus zawarli Święte Przymierze.\\n[5] Polski Październik\\nW październiku 1956 roku Władysław Gomułka został wybrany na I sekretarza KC PZPR. Ograniczono kolektywizację wsi i złagodzono cenzurę.\\n[6] Marzec 1968\\nW marcu 1968 roku studenci Warszawy protestowali po zdjęciu z afisza Dziadów w Teatrze Narodowym. Władze rozpętały kampanię antysemicką.\\n[7] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[8] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n\\nTemat nr 3:\\nOdwilż 1956 roku zmieniła PRL tylko pozornie. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\\n\\nWypisz 6 wydarzeń, które najlepiej pozwolą uzasadnić stanowisko w temacie nr 3 (najważniejsze i najbardziej znane najpierw); każde musi mieć miejsce wyłącznie w latach 1956–1970 — nie podawaj niczego sprzed 1956 ani po 1970 roku. Wypisz je w 6 liniach w formacie: nazwa (rok lub lata). Nie pisz nic więcej.\", \"role\": \"user\"}, {\"content\": \"1.\", \"role\": \"assistant\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.0}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 320, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[2] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n[3] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[4] Święte Przymierze\\nW 1815 roku monarchowie Rosji, Austrii i Prus zawarli Święte Przymierze.\\n\\nTemat nr 3:\\nOdwilż 1956 roku zmieniła PRL tylko pozornie. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\\n\\nNapisz wstęp wypracowania (3–4 zdania): wprowadź w temat (epoka, kontekst, lata 1956–1970), jednoznacznie zajmij stanowisko wobec tezy (np. „Zgadzam się z tezą, że…”, „Nie zgadzam się z tezą, że…” albo „Teza jest słuszna tylko częściowo, ponieważ…”) i zapowiedz, że uzasadnisz je, omawiając: Poznański Czerwiec (1956), Marzec 1968 (1968), Grudzień 1970 (1970). Nie przepisuj polecenia ani tezy słowo w słowo, nie pisz nagłówka. Napisz tylko wstęp.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 360, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Temat nr 3:\\nOdwilż 1956 roku zmieniła PRL tylko pozornie. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\\n\\nDotychczas napisany tekst wypracowania:\\nOkres po przełomie przyniósł wiele zmian w państwie i społeczeństwie. Rządzący zapowiadali odnowę, a obywatele liczyli na większą swobodę i lepsze warunki życia. Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod. Uzasadnię to stanowisko, omawiając trzy wybrane wydarzenia i ich skutki dla obywateli.\\n\\nPoznański Czerwiec (1956) pokazuje, że teza jest trafna. W czerwcu 1956 roku robotnicy Poznania rozpoczęli strajk, który stłumiło wojsko. W listopadzie 1956 roku Władysław Gomułka został I sekretarzem KC PZPR. W marcu 1968 roku studenci Warszawy protestowali po zdjęciu Dziadów. Władze odpowiedziały represjami, a wielu uczestników protestów straciło pracę i musiało wyjechać z kraju. Społeczeństwo coraz wyraźniej dostrzegało, że obietnice z okresu przemian nie zostały spełnione. Cenzura znów się zaostrzyła, a swobody obiecane robotnikom i studentom stopniowo odbierano. Zaufanie do rządzących malało z każdym rokiem.\\n\\nMarzec 1968 (1968) wyraźnie wiąże się z tezą. W grudniu 1970 roku robotnicy stoczni Wybrzeża rozpoczęli strajk po podwyżce cen. W styczniu 1970 roku Edward Gierek zastąpił Gomułkę. Przemoc wobec robotników podważyła zaufanie do partii i pokazała granice liberalizacji. Nowa ekipa zapowiadała modernizację, lecz nie zmieniła podstaw systemu. Decyzje nadal zapadały w wąskim gronie kierownictwa, bez udziału obywateli. Robotnicy zapamiętali, że władza strzelała do protestujących. Ten przykład dowodzi, że przemiany miały charakter powierzchowny.\\n\\nGrudzień 1970 (1970) również przemawia za przyjętym stanowiskiem. 23 października 1956 roku w Budapeszcie wybuchło powstanie węgierskie. 25 października 1956 roku armia radziecka stłumiła powstanie. Doświadczenie sąsiadów przekonało wielu, że otwarty bunt nie ma szans. Kierownictwo partii wykorzystało te obawy, by ograniczyć żądania reform. Nadzieje na demokratyzację szybko osłabły, a aparat bezpieczeństwa odzyskał dawną pozycję. Ten przykład także pokazuje, że swoboda po przełomie była ograniczona.\\n\\nNapisz zakończenie (3–4 zdania): podsumuj argumenty z rozwinięcia i powtórz stanowisko ze wstępu. Nie dodawaj nowych faktów ani dat. Napisz tylko zakończenie.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 520, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[2] Polski Październik\\nW październiku 1956 roku Władysław Gomułka został wybrany na I sekretarza KC PZPR. Ograniczono kolektywizację wsi i złagodzono cenzurę.\\n[3] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[4] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[5] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[6] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n\\nTemat nr 3:\\nOdwilż 1956 roku zmieniła PRL tylko pozornie. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\\n\\nStanowisko autora wypracowania: Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod.\\n\\nNapisz akapit rozwinięcia (6–8 zdań) dotyczący wydarzenie: Poznański Czerwiec (1956). Pierwsze zdanie ma wiązać ten element z tezą. Podaj 2–3 konkretne fakty z datami (rok) z powyższych fragmentów — wyłącznie takie, które w nich występują — i wyjaśnij, jak potwierdzają albo osłabiają stanowisko. Ostatnie zdanie akapitu ma wyraźnie wiązać go z tezą. Wszystkie przykłady muszą pochodzić z lat 1956–1970 (rama czasowa tematu). Pisz ciągłym tekstem, bez nagłówka; nie powtarzaj wstępu i nie pisz zakończenia. Napisz tylko ten akapit.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 520, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[2] Poznański Czerwiec\\nPoznański Czerwiec – strajk i demonstracje robotników Poznania 28 czerwca 1956 roku, stłumione przez wojsko i milicję. Zginęło kilkadziesiąt osób.\\n[3] Święte Przymierze\\nW 1815 roku monarchowie Rosji, Austrii i Prus zawarli Święte Przymierze.\\n[4] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[5] Powstanie węgierskie\\nPowstanie węgierskie wybuchło 23 października 1956 roku w Budapeszcie i zostało stłumione przez armię radziecką.\\n[6] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n\\nTemat nr 3:\\nOdwilż 1956 roku zmieniła PRL tylko pozornie. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\\n\\nStanowisko autora wypracowania: Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod.\\n\\nNapisz akapit rozwinięcia (6–8 zdań) dotyczący wydarzenie: Grudzień 1970 (1970). Pierwsze zdanie ma wiązać ten element z tezą. Podaj 2–3 konkretne fakty z datami (rok) z powyższych fragmentów — wyłącznie takie, które w nich występują — i wyjaśnij, jak potwierdzają albo osłabiają stanowisko. Ostatnie zdanie akapitu ma wyraźnie wiązać go z tezą. Wszystkie przykłady muszą pochodzić z lat 1956–1970 (rama czasowa tematu). Pisz ciągłym tekstem, bez nagłówka; nie powtarzaj wstępu i nie pisz zakończenia. Napisz tylko ten akapit.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}",
+   "{\"dry_allowed_length\": 6, \"dry_multiplier\": 0.5, \"grammar\": null, \"lora\": [{\"id\": 0, \"scale\": 0.0}], \"max_tokens\": 520, \"messages\": [{\"content\": \"Jesteś doświadczonym nauczycielem historii i egzaminatorem maturalnym. Piszesz wzorcowe wypracowania z matury z historii (poziom rozszerzony) po polsku: rzeczowo, spójnie, poprawnie językowo i z trafnie dobranymi faktami. Przed tematem mogą znajdować się fragmenty artykułów z polskiej Wikipedii — to Twoje główne źródło faktów. Nie wymyślasz faktów, dat ani nazwisk.\", \"role\": \"system\"}, {\"content\": \"Fragmenty z Wikipedii:\\n[1] Poznański Czerwiec\\nPoznański Czerwiec – strajk i demonstracje robotników Poznania 28 czerwca 1956 roku, stłumione przez wojsko i milicję. Zginęło kilkadziesiąt osób.\\n[2] Kongres wiedeński\\nKongres wiedeński obradował od września 1814 do czerwca 1815 roku. Utworzono Królestwo Polskie związane unią z Rosją.\\n[3] Grudzień 1970\\nW grudniu 1970 roku po podwyżce cen robotnicy stoczni Wybrzeża rozpoczęli strajk. Gomułkę zastąpił Edward Gierek.\\n[4] Józef Stalin\\nJózef Stalin zmarł w marcu 1953 roku w Moskwie.\\n[5] Hołd pruski\\nHołd pruski złożył Albrecht Hohenzollern królowi Zygmuntowi Staremu w Krakowie 10 kwietnia 1525 roku. Prusy Książęce stały się lennem Polski.\\n[6] Wojna pruska\\nWojna pruska toczyła się w latach 1519–1521 i zakończyła się rozejmem w Toruniu.\\n\\nTemat nr 3:\\nOdwilż 1956 roku zmieniła PRL tylko pozornie. Zajmij stanowisko wobec powyższej tezy i je uzasadnij, charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\\n\\nStanowisko autora wypracowania: Zgadzam się z tezą, ponieważ wiele reform okazało się nietrwałych, a władza szybko wróciła do dawnych metod.\\n\\nNapisz akapit rozwinięcia (6–8 zdań) dotyczący wydarzenie: Marzec 1968 (1968). Pierwsze zdanie ma wiązać ten element z tezą. Podaj 2–3 konkretne fakty z datami (rok) z powyższych fragmentów — wyłącznie takie, które w nich występują — i wyjaśnij, jak potwierdzają albo osłabiają stanowisko. Ostatnie zdanie akapitu ma wyraźnie wiązać go z tezą. Wszystkie przykłady muszą pochodzić z lat 1956–1970 (rama czasowa tematu). Pisz ciągłym tekstem, bez nagłówka; nie powtarzaj wstępu i nie pisz zakończenia. Napisz tylko ten akapit.\", \"role\": \"user\"}], \"repeat_last_n\": 256, \"repeat_penalty\": 1.0, \"seed\": 42, \"temperature\": 0.3}"
+  ],
+  "essay_meta": {
+   "alternative": "",
+   "aspects": [],
+   "elements": [
+    "Poznański Czerwiec (1956)",
+    "Marzec 1968 (1968)",
+    "Grudzień 1970 (1970)"
+   ],
+   "frame": [
+    1956,
+    1970
+   ],
+   "lora_off": true,
+   "n_ctx": 28,
+   "n_removed": 6,
+   "stance_added": false,
+   "superlative": false,
+   "topic": "3",
+   "topics": [
+    {
+     "lex": 0.286,
+     "n": "1",
+     "n_ctx": 10,
+     "needs_materials": false,
+     "rerank": 0.989,
+     "score": 0.6374,
+     "terms": [
+      "hold",
+      "prus",
+      "najwiek",
+      "sukces",
+      "dyploma",
+      "ostatni",
+      "jagiell"
+     ]
+    },
+    {
+     "lex": 0.333,
+     "n": "2",
+     "n_ctx": 10,
+     "needs_materials": false,
+     "rerank": 0.998,
+     "score": 0.6654,
+     "terms": [
+      "kongr",
+      "wiedens",
+      "zapewn",
+      "europ",
+      "trwa",
+      "poko"
+     ]
+    },
+    {
+     "frame_hits": 6,
+     "lex": 0.333,
+     "n": "3",
+     "n_ctx": 10,
+     "needs_materials": false,
+     "rerank": 0.992,
+     "score": 0.6627,
+     "terms": [
+      "odwi",
+      "1956",
+      "roku",
+      "zmieni",
+      "tylk",
+      "pozorn"
+     ]
+    }
+   ],
+   "verify": [
+    {
+     "bad_years": [
+      "1957"
+     ],
+     "removed": "W 1957 roku władze powołały nową instytucję."
+    },
+    {
+     "out_frame": [
+      "1953"
+     ],
+     "removed": "W 1953 roku wybuchło powstanie węgierskie."
+    },
+    {
+     "bad_years": [
+      "1971"
+     ],
+     "removed": "W 1971 roku rząd cofnął podwyżki, co uspokoiło nastroje na krótko."
+    },
+    {
+     "bad_years": [
+      "1965"
+     ],
+     "removed": "W 1965 roku stocznie otrzymały nowe zamówienia."
+    },
+    {
+     "out_frame": [
+      "1953"
+     ],
+     "removed": "W marcu 1953 roku zmarł Józef Stalin, co zapoczątkowało odwilż w całym bloku."
+    },
+    {
+     "bad_single": [
+      "Polacy",
+      "Węgrzech"
+     ],
+     "bad_years": [
+      "1954"
+     ],
+     "out_frame": [
+      "1954"
+     ],
+     "removed": "W 1954 roku Polacy obserwowali wydarzenia na Węgrzech z niepokojem."
+    }
+   ],
+   "words": 304
+  },
+  "retrieval": [
+   "{\"k\": 12, \"search\": \"Europie\"}",
+   "{\"k\": 12, \"search\": \"Grudzień 1970 (1970) Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"k\": 12, \"search\": \"Grudzień 1970 (1970)\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"k\": 12, \"search\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów.\"}",
+   "{\"k\": 12, \"search\": \"Jagiellonów\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"k\": 12, \"search\": \"Kongres wiedeński zapewnił Europie trwały pokój.\"}",
+   "{\"k\": 12, \"search\": \"Marzec 1968 (1968) Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"k\": 12, \"search\": \"Marzec 1968 (1968)\"}",
+   "{\"k\": 12, \"search\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie. charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\"}",
+   "{\"k\": 12, \"search\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"k\": 12, \"search\": \"PRL 1956 1970\"}",
+   "{\"k\": 12, \"search\": \"PRL\"}",
+   "{\"k\": 12, \"search\": \"Poznański Czerwiec (1956) Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"k\": 12, \"search\": \"Poznański Czerwiec (1956)\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Grudzień 1970 (1970)\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny militarny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy międzynarodowy społeczny\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Marzec 1968 (1968)\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie.\"}",
+   "{\"n_docs\": 10, \"rerank_query\": \"Poznański Czerwiec (1956)\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. militarny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Hołd pruski był największym sukcesem dyplomacji ostatnich Jagiellonów. polityczny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. międzynarodowy\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. społeczny\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Kongres wiedeński zapewnił Europie trwały pokój. ustrojowy\"}",
+   "{\"n_docs\": 6, \"rerank_query\": \"Odwilż 1956 roku zmieniła PRL tylko pozornie. charakteryzując trzy wybrane wydarzenia z lat 1956–1970.\"}"
+  ]
+ }
+}

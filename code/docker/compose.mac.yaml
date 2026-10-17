@@ -1,0 +1,38 @@
+# Override for a CPU-only smoke test on the Mac Studio (Docker Desktop, arm64, shared host).
+#   . docker/mac_env.sh
+#   docker compose -p wmt-smoke --env-file docker/mac.env \
+#     -f docker/compose.yaml -f docker/compose.mac.yaml up -d --wait
+# Same entrypoint, same harness image, same network isolation; only the llama.cpp image (CPU
+# build), resource caps and model/ports/index (mac.env) differ.
+#
+# Workaround: in the Docker Desktop Linux VM on the M4 Max, the armv8.2+/8.6/9.2 CPU backend
+# variants of the official arm64 image (b11176) generate garbage ('\x17\x17...') while the
+# baseline armv8.0 variant and the native macOS build are correct.  Masking the higher variants
+# with /dev/null makes ggml fall back to armv8.0.  Not relevant for prod (x86_64 + CUDA).
+x-cpu-llm: &cpu-llm
+  image: ${LLM_IMAGE_CPU:-ghcr.io/ggml-org/llama.cpp:server-b11176}
+  gpus: !reset null
+  cpus: 4
+  mem_limit: 5g
+  volumes:
+    - ${MODELS_DIR:-../models}:/models:ro
+    - ./llm-entrypoint.sh:/opt/wmt/llm-entrypoint.sh:ro
+    - /dev/null:/app/libggml-cpu-armv8.2_1.so:ro
+    - /dev/null:/app/libggml-cpu-armv8.2_2.so:ro
+    - /dev/null:/app/libggml-cpu-armv8.2_3.so:ro
+    - /dev/null:/app/libggml-cpu-armv8.6_1.so:ro
+    - /dev/null:/app/libggml-cpu-armv8.6_2.so:ro
+    - /dev/null:/app/libggml-cpu-armv9.2_1.so:ro
+    - /dev/null:/app/libggml-cpu-armv9.2_2.so:ro
+
+services:
+  llm:
+    <<: *cpu-llm
+  llm-base:
+    <<: *cpu-llm
+  harness:
+    cpus: 2
+    mem_limit: 3g
+  gateway:
+    cpus: 0.5
+    mem_limit: 256m

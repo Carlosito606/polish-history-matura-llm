@@ -1,0 +1,41 @@
+bin/
+models/
+data/
+kb_data/
+index/
+*.gguf
+*.safetensors
+train/loras/
+*.tar
+*.tar.gz
+.venv/
+__pycache__/
+*.pyc
+logs/
+.env
+
+# CKE materials: eval only, rebuilt by script, not committed
+devset/cke-*.jsonl
+data_cke/
+train/datagen/cke_items/
+
+# Historical-book source texts: PD but re-downloadable, not committed (see sources/*.csv + fetch script)
+sources/raw/
+data_gen/
+train/datagen/cke_full_items/
+
+# full CKE papers + our answers (eval only, CKE-derived)
+devset/cke_full/
+# essay benchmark answers (CKE essay topics, eval only)
+devset/essay_bench/
+
+# official-package submissions: debug JSONL holds CKE/exam text; answers.json kept out of git for now
+submissions/*/*/debug*
+submissions/*/*/answers.json
+submissions/*/*/image_vlm*
+
+# CKE-derived dev/eval files not covered above (tourney160 mixes in 45 CKE items; runs/ and essay_bench/ hold answers to CKE prompts)
+devset/tourney160.jsonl
+devset/runs/
+devset/essay_bench/
+submissions/final/

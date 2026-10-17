@@ -1,0 +1,13 @@
+# Top-level RUNTIME deps of the harness image (what harness/ and kb/search.py import at serve time).
+# Pinned to the versions of the Mac dev venv (~/wmt-matura/.venv) so dev == prod.
+# Index BUILD deps (pyarrow, orjson for kb/build_*.py) are not needed in the image: the index is
+# built offline and mounted read-only.  bm25s / PyStemmer are not imported by kb/search.py.
+# Regenerate the fully pinned, hashed lock with:  bash docker/lock.sh  (writes docker/requirements.txt)
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+httpx==0.28.1
+pydantic==2.13.5
+numpy==2.5.3
+rapidfuzz==3.14.6
+orjson==3.12.0
+regex==2026.9.10

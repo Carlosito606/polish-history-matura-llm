@@ -1,0 +1,7 @@
+id,source_portal,item_title,url,licence_status,verdict,notes
+1,ZPE,Historia PP 2022 - podstawa programowa (szkola ponadpodstawowa),https://zpe.gov.pl/podstawa-programowa/szkola-ponadpodstawowa/historia-pp-2022,unverified (claimed CC),maybe,curriculum overview page, not itself teaching content
+2,ZPE,"Dla nauczyciela - Narody bez panstwa - historia i terazniejszosc",https://zpe.gov.pl/a/dla-nauczyciela/D1BZ8nwuu,unverified (CC badge not in raw HTML this pass),maybe,LO/technikum thread; confirm licence badge in browser before any extraction
+3,Scholaris (legacy),Rozwiaz zadania (sample resource page),https://www.scholaris.pl/zasob/102075,unverified per-resource,maybe,example of a single-resource page; licence must be checked per item, most of catalog is NOT CC
+4,IPN edukacja,Materialy edukacyjne (index page),https://edukacja.ipn.gov.pl/edu/materialy-edukacyjne,(c) IPN, no open licence found,avoid (bulk),free PDFs, standard copyright
+5,Muzeum Historii Polski,Oferta edukacyjna (index page),https://muzhp.pl/edukacja,no open licence found; API blocked by Cloudflare,avoid,lessons delivered in person / on request only
+6,Otwarte Zasoby,otwartezasoby.pl (directory home),https://otwartezasoby.pl/,N/A - directory not a content source,use as map only,points to Polona/Wolne Lektury/Scholaris, no content of its own

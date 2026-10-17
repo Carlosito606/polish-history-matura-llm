@@ -1,0 +1,136 @@
+# Production stack for the exam VM (1x NVIDIA L40S 48 GB, Linux x86_64).
+#
+#   cd docker && cp .env.example .env   # set MODEL_FILE (+ LORA_FILE / BASE_MODEL_FILE)
+#   docker compose up -d --wait                     # trained model + RAG harness
+#   docker compose --profile base up -d --wait      # + untouched base model on the raw port
+#
+# Topology (see README.md):
+#   host 127.0.0.1:18000 --> gateway --> harness:18000 --> llm:8080        (RAG, trained model)
+#   host 127.0.0.1:18080 --> gateway --> llm-base:8080 | llm:8080          (raw OpenAI API, no RAG)
+#   'internal' network is internal-only: llm, llm-base and harness have NO egress and NO published
+#   ports.  gateway (a stdlib TCP forwarder) is the only container on the 'edge' network.
+name: wmt-matura
+
+x-llm: &llm
+  image: ${LLM_IMAGE:-ghcr.io/ggml-org/llama.cpp:server-cuda-b11176}
+  entrypoint: ["/bin/sh", "/opt/wmt/llm-entrypoint.sh"]
+  gpus: all
+  networks: [internal]
+  volumes:
+    - ${MODELS_DIR:-../models}:/models:ro
+    - ./llm-entrypoint.sh:/opt/wmt/llm-entrypoint.sh:ro
+  restart: unless-stopped
+  ulimits:
+    memlock: -1
+  healthcheck:
+    test: ["CMD", "curl", "-fsS", "-o", "/dev/null", "http://127.0.0.1:8080/health"]
+    interval: 10s
+    timeout: 5s
+    retries: 6
+    start_period: 600s
+    start_interval: 5s
+  logging: &logging
+    driver: json-file
+    options: {max-size: "50m", max-file: "3"}
+
+services:
+  llm:
+    <<: *llm
+    environment:
+      MODEL_FILE: ${MODEL_FILE:?set MODEL_FILE in docker/.env (path relative to the models dir)}
+      LORA_FILE: ${LORA_FILE:-}
+      LORA_SCALE: ${LORA_SCALE:-1.0}
+      MODEL_ALIAS: ${MODEL_ALIAS:-wmt-trained}
+      N_GPU_LAYERS: ${N_GPU_LAYERS:-999}
+      CTX_SIZE: ${CTX_SIZE:-16384}
+      N_PARALLEL: ${N_PARALLEL:-4}
+      KV_UNIFIED: ${KV_UNIFIED:-1}
+      CHAT_TEMPLATE_FILE: ${CHAT_TEMPLATE_FILE:-}
+      SEED: ${SEED:-}
+      LLAMA_EXTRA_ARGS: ${LLAMA_EXTRA_ARGS:-}
+
+  # Untouched base model for the "gain over base" benchmark (same GGUF without LoRA, or the
+  # original GGUF when the trained model is a merge).  Enabled with --profile base.
+  llm-base:
+    <<: *llm
+    profiles: [base]
+    environment:
+      MODEL_FILE: ${BASE_MODEL_FILE:-${MODEL_FILE}}
+      MODEL_ALIAS: ${BASE_MODEL_ALIAS:-base}
+      N_GPU_LAYERS: ${N_GPU_LAYERS:-999}
+      CTX_SIZE: ${BASE_CTX_SIZE:-${CTX_SIZE:-16384}}
+      N_PARALLEL: ${BASE_N_PARALLEL:-${N_PARALLEL:-4}}
+      KV_UNIFIED: ${KV_UNIFIED:-1}
+      SEED: ${SEED:-}
+      LLAMA_EXTRA_ARGS: ${LLAMA_EXTRA_ARGS:-}
+
+  harness:
+    image: ${HARNESS_IMAGE:-wmt-harness:latest}
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.harness
+    networks: [internal]
+    env_file:
+      - path: ./harness.env        # optional harness tunables (TOP_K, THINK, N_VOTES, ...)
+        required: false
+    environment:
+      HARNESS_HOST: 0.0.0.0
+      HARNESS_PORT: "18000"
+      LLM_BASE_URL: http://llm:8080/v1
+      LLM_MODEL: ${MODEL_ALIAS:-wmt-trained}
+      # harness /base passthrough + model "base": via the gateway's 18080 route (llm-base, fallback llm)
+      BASE_LLM_BASE_URL: ${BASE_LLM_BASE_URL:-http://gateway:18080/v1}
+      KB_INDEX_DIR: /data/index
+      REQUEST_LOG: /logs/harness-requests.jsonl
+      HF_HUB_OFFLINE: "1"
+    volumes:
+      - ${INDEX_DIR:-../kb_data/index}:/data/index:ro
+      - harness-logs:/logs
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    depends_on:
+      llm:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "/opt/wmt/healthcheck.py"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 900s      # a full-Wikipedia BM25 index can take minutes to load
+      start_interval: 5s
+    restart: unless-stopped
+    logging: *logging
+
+  gateway:
+    image: ${HARNESS_IMAGE:-wmt-harness:latest}
+    command: ["python", "/opt/wmt/gateway.py"]
+    networks: [internal, edge]
+    environment:
+      GATEWAY_ROUTES: "18000=harness:18000;18080=llm-base:8080|llm:8080"
+    ports:
+      - "${BIND_ADDR:-127.0.0.1}:${HARNESS_HOST_PORT:-18000}:18000"
+      - "${BIND_ADDR:-127.0.0.1}:${RAW_HOST_PORT:-18080}:18080"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    depends_on:
+      harness:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "/opt/wmt/healthcheck.py", "http://127.0.0.1:18000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 30s
+    restart: unless-stopped
+    logging: *logging
+
+networks:
+  internal:
+    internal: true           # no route to the outside world
+  edge: {}
+
+volumes:
+  harness-logs: {}

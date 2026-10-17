@@ -1,0 +1,61 @@
+# syntax=docker/dockerfile:1.7
+# Harness image: FastAPI RAG server (harness/) + BM25 knowledge base code (kb/) + the edge gateway.
+# Build context = repo root (see Dockerfile.harness.dockerignore):
+#   docker buildx build --platform linux/amd64,linux/arm64 -f docker/Dockerfile.harness -t wmt-harness:latest --load .
+# No model weights and no index inside: /data/index is mounted read-only at runtime.
+
+ARG PYTHON_IMAGE=python:3.12-slim@sha256:2f17fc044b579bab302c2e8054d3a686e2cb9a83de48e70534b94cd8ebbe06a9
+
+# ---------------------------------------------------------------- deps (wheels only)
+FROM ${PYTHON_IMAGE} AS deps
+ENV PIP_NO_CACHE_DIR=1 PIP_DISABLE_PIP_VERSION_CHECK=1 PYTHONDONTWRITEBYTECODE=1
+COPY docker/requirements.txt /tmp/requirements.txt
+RUN python -m venv /opt/venv \
+ && /opt/venv/bin/pip install --no-compile --only-binary=:all: --require-hashes -r /tmp/requirements.txt \
+ && find /opt/venv -name '__pycache__' -prune -exec rm -rf {} + \
+ && /opt/venv/bin/python -m compileall -q -j 0 /opt/venv/lib
+
+# ---------------------------------------------------------------- runtime
+FROM ${PYTHON_IMAGE} AS runtime
+ARG APP_UID=10001
+ARG VCS_REF=unknown
+ARG BUILD_DATE=unknown
+LABEL org.opencontainers.image.title="wmt-matura harness" \
+      org.opencontainers.image.description="Offline BM25 RAG harness (OpenAI-compatible) for the WMT matura exam" \
+      org.opencontainers.image.revision="${VCS_REF}" \
+      org.opencontainers.image.created="${BUILD_DATE}"
+
+ENV PATH=/opt/venv/bin:$PATH \
+    PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    HF_HUB_OFFLINE=1 \
+    HF_DATASETS_OFFLINE=1 \
+    TRANSFORMERS_OFFLINE=1 \
+    HF_HUB_DISABLE_TELEMETRY=1 \
+    DO_NOT_TRACK=1 \
+    NO_PROXY="*" \
+    no_proxy="*" \
+    HARNESS_HOST=0.0.0.0 \
+    HARNESS_PORT=18000 \
+    LLM_BASE_URL=http://llm:8080/v1 \
+    KB_INDEX_DIR=/data/index \
+    REQUEST_LOG=/logs/harness-requests.jsonl
+
+RUN groupadd --gid ${APP_UID} app \
+ && useradd --uid ${APP_UID} --gid app --home-dir /app --no-create-home --shell /usr/sbin/nologin app \
+ && mkdir -p /app /data/index /logs /opt/wmt \
+ && chown app:app /logs
+
+COPY --from=deps /opt/venv /opt/venv
+WORKDIR /app
+COPY kb/ /app/kb/
+COPY harness/ /app/harness/
+COPY docker/gateway.py docker/healthcheck.py docker/smoke_test.py /opt/wmt/
+RUN python -m compileall -q /app /opt/wmt
+
+USER app
+EXPOSE 18000
+HEALTHCHECK --interval=10s --timeout=5s --start-period=300s --retries=6 \
+  CMD ["python", "/opt/wmt/healthcheck.py"]
+# harness/__main__.py -> uvicorn harness.server:app on HARNESS_HOST:HARNESS_PORT
+CMD ["python", "-m", "harness"]

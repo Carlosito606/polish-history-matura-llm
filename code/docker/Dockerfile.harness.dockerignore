@@ -1,0 +1,19 @@
+# Build context is the repo root; ship only what the harness image needs.
+*
+!kb
+!harness
+!docker/requirements.txt
+!docker/gateway.py
+!docker/healthcheck.py
+!docker/smoke_test.py
+**/__pycache__
+**/*.pyc
+**/*.gguf
+**/*.parquet
+**/*.safetensors
+**/*.gz
+**/*.tar
+**/.venv
+# SNAPSHOT_KB=1 copies the 5+ GB index into harness/_kb_snapshot (never ship it; the index is a volume)
+harness/_kb_snapshot
+**/*.npy
